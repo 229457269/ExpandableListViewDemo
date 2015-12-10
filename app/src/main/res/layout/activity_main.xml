@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- 自定义listView-->
+    <zhaoq_qiang.expandablelistviewdemo.MyExpandableListView
+        android:id="@+id/expand_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.0dip"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="true"
+        android:groupIndicator="@null"
+        android:scrollbars="vertical"
+        android:scrollingCache="true"
+        />
+
+</LinearLayout>
